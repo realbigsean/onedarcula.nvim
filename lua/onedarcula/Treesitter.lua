@@ -1,5 +1,4 @@
 local Treesitter = {
-		rustQuestionMark = {fg = C.orange, },
 		TSComment = {fg = C.gray, },
 		TSAnnotation = {fg = C.yellow, },
 		TSAttribute = {fg = C.yellow, },
