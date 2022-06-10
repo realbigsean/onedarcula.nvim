@@ -11,7 +11,7 @@ local Treesitter = {
 		TSKeyword = {fg = C.orange, },
 		TSKeywordReturn = {fg = C.orange, },
 		TSKeywordFunction = {fg = C.orange, },
-		TSLabel = {fg = C.orange, },
+		TSLabel = {fg = C.cyan, },
 		TSNone = {fg = C.fg, },
 		TSNamespace = {fg = C.fg, },
 		TSRepeat = {fg = C.orange, },
