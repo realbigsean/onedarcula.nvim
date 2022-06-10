@@ -6,6 +6,7 @@ local Treesitter = {
 		TSType = {fg = C.fg, },
 		TSTypeParameter = {fg = C.blue, },
 		TSTypeBuiltin = {fg = C.orange, },
+		TSTypeQualifier = {fg = C.blue, },
 		TSConditional = {fg = C.orange, },
 		TSException = {fg = C.red, },
 		TSInclude = {fg = C.orange, },
