@@ -1,7 +1,7 @@
 local Treesitter = {
 		TSComment = {fg = C.gray, },
 		TSAnnotation = {fg = C.yellow, },
-		TSAttribute = {fg = C.fg, },
+		TSAttribute = {fg = C.yellow, },
 		TSConstructor = {fg = C.yellow_orange, },
 		TSType = {fg = C.fg, },
 		TSTypeBuiltin = {fg = C.fg, },
@@ -40,7 +40,7 @@ local Treesitter = {
 		TSPunctDelimiter = {fg = C.orange, },
 		TSTagDelimiter = {fg = C.gray, },
 		TSTagAttribute = {fg = C.orange, },
-		TSPunctBracket = {fg = C.fg, },
+		TSPunctBracket = {fg = C.yellow, },
 		TSPunctSpecial = {fg = C.fg, },
 		TSString = {fg = C.green, },
 		TSStringRegex = {fg = C.orange, },
