@@ -1,6 +1,4 @@
 local highlights = {
-		TypeParameters = {fg = C.blue, },	
- 		rustQuestionMark = {fg = C.orange, },
 		Normal = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
 		SignColumn = {bg = C.bg, },
 		MsgArea = {fg = C.fg, bg = Config.transparent_background and "NONE" or C.bg, },
