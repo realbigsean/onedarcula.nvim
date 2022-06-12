@@ -1,14 +1,20 @@
-(type_identifier)
-(generic_type
-	type: (type_identifier)
-	type_arguments: (type_arguments
-		(type_identifier) @label
-		(#eq? @label metaData[@label])
-	)
-)
-
-
-(constrained_type_parameter
-        (type_identifier) @label
-	(#set! @label @label )
+(source_file
+  (type_item
+    (type_identifier)
+    (generic_type
+      (type_identifier)
+      (type_arguments
+        (type_identifier) @label)))
+  (type_item
+    (type_identifier)
+    (generic_type
+      (type_identifier)
+      (type_arguments
+        (type_binding
+          (type_identifier) @label)))))
+  (type_item
+    (constrained_type_parameter 
+      left: (type_identifier) @definition.type)
+    )
+  )
 )
