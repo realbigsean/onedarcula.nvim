@@ -1,5 +1,1 @@
-[
-  "Self"
-  "crate"
-] @keyword
-
+(generic_type) @label
