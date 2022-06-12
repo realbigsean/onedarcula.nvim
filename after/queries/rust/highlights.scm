@@ -1,2 +1,5 @@
-(Self) @variable.builtin
+[
+  "Self"
+  "crate"
+] @keyword
 
