@@ -16,5 +16,4 @@
 
 ((line_comment) @eggplant (#lua-match? @eggplant "^[\/][\/][\/|!]")) @text.note
 
-(try_expression
-  operator: "?" @keyword)
+(try_expression) @keyword
