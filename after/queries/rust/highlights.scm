@@ -26,3 +26,5 @@
   (attr_item
   ((identifier) @soup (#lua-match? @soup "^[a-z]")) @function))
 
+
+(((identifier) @boat (#has-ancestor? @boat attribute_item)) @peanut (#lua-match? @peanut "^[a-z]")) @function
