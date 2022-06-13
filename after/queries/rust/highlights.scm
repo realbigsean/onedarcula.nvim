@@ -19,4 +19,7 @@
 ["?"] @keyword
 
 (attribute_item
-  ((identifier) @soup (#lua-match? @soup "^[a-z]" @function))) 
+  (meta_item
+  ((identifier) @soup (#lua-match? @soup "^[a-z]" @function))))
+
+
