@@ -17,7 +17,7 @@ local Treesitter = {
 		TSNone = {fg = C.fg, },
 		TSNamespace = {fg = C.fg, },
 		TSRepeat = {fg = C.orange, },
-		TSConstant = {fg = C.purple, style="bold", style="italic", },
+		TSConstant = {fg = C.purple, style="bold,italic", },
 		TSConstBuiltin = {fg = C.purple, },
 		TSFloat = {fg = C.cyan, },
 		TSNumber = {fg = C.cyan, },
