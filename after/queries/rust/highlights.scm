@@ -3,8 +3,6 @@
 (scoped_identifier
   path: (identifier) @path_name (#match? @path_name "^[A-Z]") 
   name: (identifier) @constant)
-((identifier) @banana 
+((type_identifier) @banana 
 (#match? @banana "Self")) @keyword
-((identifier) @bananas
-(#match? @bananas "crate")) @keyword
-
+(crate) @keyword
