@@ -4,7 +4,7 @@
   path: (identifier) @path_name (#match? @path_name "^[A-Z]") 
   name: (identifier) @constant)
 ((identifier) @banana 
-(#match? @banana "Self") @keyword)
+(#match? @banana "Self")) @keyword
 ((identifier) @bananas
-(#match? @bananas "crate") @keyword)
+(#match? @bananas "crate")) @keyword
 
