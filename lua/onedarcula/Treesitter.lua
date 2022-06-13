@@ -30,7 +30,7 @@ local Treesitter = {
 		TSConstMacro = {fg = C.yellow, },
 		TSFuncMacro = {fg = C.blue, },
 		TSProperty = {fg = C.purple, },
-		TSOperator = {fg = C.orange, },
+		TSOperator = {fg = C.fg, },
 		TSField = {fg = C.purple, },
 		TSParameter = {fg = C.fg, },
 		TSParameterReference = {fg = C.fg, },
