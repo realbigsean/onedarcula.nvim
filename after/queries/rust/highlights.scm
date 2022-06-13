@@ -20,6 +20,6 @@
 
 (attribute_item
   (meta_item
-  ((identifier) @soup (#lua-match? @soup "^[a-z]" @function))))
+  ((identifier) @soup (#lua-match? @soup "^[a-z]")) @function))
 
 
