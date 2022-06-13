@@ -8,8 +8,8 @@
 
 ((type_identifier) @butter (#lua-match? @butter "^[A-Z]$")) @label
 
-(scoped_type_identifier
-  path: (identifier) @butter (#lua-match? @butter "^[A-Z]") @constant
-  name: (type_identifier) @toast (#lua-match? @toast "^[A-Z]") @constant)
+;; (scoped_type_identifier
+;;  path: (identifier) @butter (#lua-match? @butter "^[A-Z]") @constant
+;;  name: (type_identifier) @toast (#lua-match? @toast "^[A-Z]") @constant)
 
 (shorthand_field_initializer) @variable 
