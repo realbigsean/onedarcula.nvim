@@ -17,3 +17,6 @@
 ((line_comment) @eggplant (#lua-match? @eggplant "^[\/][\/][\/|!]")) @text.note
 
 ["?"] @keyword
+
+(attribute_item
+  ((identifier) @soup (#lua-match? @soup "^[a-z]" @function))) 
