@@ -26,6 +26,6 @@
   (attr_item
   ((identifier) @soup (#lua-match? @soup "^[a-z]")) @function))
 
-(token_tree
-((((identifier) @boat (#has-ancestor? @boat attribute_item)) @peanut (#lua-match? @peanut "^[a-z]")) @function
-!(string_literal)))
+;;(token_tree
+;;((((identifier) @boat (#has-ancestor? @boat attribute_item)) @peanut (#lua-match? @peanut "^[a-z]")) @function
+;;!(string_literal)))
