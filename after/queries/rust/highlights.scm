@@ -2,4 +2,4 @@
   left: (type_identifier) @label)
 (scoped_identifier
   path: (identifier) @path_name (#match? @path_name "^[A-Z]+[a-z_]+") 
-  name: (identifier) @variable)
+  name: (identifier) @constant)
