@@ -3,5 +3,6 @@
 (scoped_identifier
   path: (identifier) @path_name (#match? @path_name "^[A-Z]") 
   name: (identifier) @constant)
-["Self" "crate" (identifier)] @keyword
+["Self" (identifier)] @keyword
+["crate" (identifier)] @keyword
 
