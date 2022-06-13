@@ -1,2 +1,3 @@
-(scoped_type_identifier 
-  path: (identifier) @definition.type)
+(constrained_type_parameter 
+  left: (type_identifier) @definition.type)
+
