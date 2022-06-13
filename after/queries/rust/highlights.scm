@@ -6,4 +6,4 @@
 
 (crate) @keyword
 
-((type_identifier) @butter (#lua-match? @butter "[A-Z]")) @label
+((type_identifier) @butter (#lua-match? @butter "^[A-Z]{1}$")) @label
