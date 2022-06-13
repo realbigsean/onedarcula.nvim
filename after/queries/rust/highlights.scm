@@ -14,5 +14,5 @@
 
 (shorthand_field_initializer (identifier) @variable) 
 
-(line_comment) @comment (#lua-match? @comment "^[\/][\/][\/|!]") @text.note
+((line_comment) @eggplant (#lua-match? @eggplant "^[\/][\/][\/|!]")) @text.note
 
