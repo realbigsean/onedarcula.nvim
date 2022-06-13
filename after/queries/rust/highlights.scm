@@ -28,4 +28,4 @@
 
 
 ((((identifier) @boat (#has-ancestor? @boat attribute_item)) @peanut (#lua-match? @peanut "^[a-z]")) @function
-(!string_literal))
+!(string_literal))
