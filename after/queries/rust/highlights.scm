@@ -1,5 +1,5 @@
 (constrained_type_parameter 
-  left: (type_identifier) @label)
+  left: (type_identifier) @type.builtin)
 
 ((type_identifier) @banana 
 (#match? @banana "Self")) @keyword
