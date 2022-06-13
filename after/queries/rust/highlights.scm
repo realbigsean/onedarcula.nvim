@@ -6,7 +6,7 @@
 
 (crate) @keyword
 
-((type_identifier) @butter (#lua-match? @butter "^[A-Z]$")) @label
+((type_identifier) @butter (#lua-match? @butter "^[A-Z]$")) @type.builtin
 
 (scoped_identifier
   path: ((identifier) @butter (#lua-match? @butter "^[A-Z]")) 
